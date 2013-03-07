@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/darker_gray"
+        >
+    <com.github.lianghanzhen.UnderlineTextView
+            android:id="@+id/change_height_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Height"
+            android:padding="5dp"
+            app:underline_height="1dp"
+            app:underline_color="#cc0000"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            />
+    <RadioGroup
+        android:id="@+id/change_height_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_1dp"
+                android:text="1_dp"
+                android:checked="true"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_3dp"
+                android:text="3_dp"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_6dp"
+                android:text="6_dp"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_9dp"
+                android:text="9_dp"/>
+    </RadioGroup>
+
+    <com.github.lianghanzhen.UnderlineTextView
+            android:id="@+id/change_color_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Color"
+            android:padding="5dp"
+            app:underline_height="1dp"
+            app:underline_color="#cc0000"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            />
+    <RadioGroup
+            android:id="@+id/change_color_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_red"
+                android:text="red"
+                android:checked="true"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_green"
+                android:text="green"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_blue"
+                android:text="blue"/>
+        <RadioButton
+                style="@style/CustomRadioButtonStyle"
+                android:id="@+id/radio_button_black"
+                android:text="black"/>
+    </RadioGroup>
+
+</LinearLayout>
+
