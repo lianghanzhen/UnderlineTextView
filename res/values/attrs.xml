@@ -4,7 +4,16 @@
 
     <declare-styleable name="UnderlineTextView">
         <attr name="underline_height" format="dimension" />
+        <attr name="underline_heightLeft" format="dimension" />
+        <attr name="underline_heightTop" format="dimension" />
+        <attr name="underline_heightRight" format="dimension" />
+        <attr name="underline_heightBottom" format="dimension" />
+
         <attr name="underline_color" format="color" />
+        <attr name="underline_colorLeft" format="color" />
+        <attr name="underline_colorTop" format="color" />
+        <attr name="underline_colorRight" format="color" />
+        <attr name="underline_colorBottom" format="color" />
     </declare-styleable>
 
 </resources>
